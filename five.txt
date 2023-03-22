@@ -1,3 +1,7 @@
+import numpy as np
+from sympy import *
+from math import *
+from matplotlib import pyplot as plt
 from sympy import*
 x , y = symbols ('x y')
 p1 = plot_implicit ( Eq ( x ** 2 + y ** 2 , 4 ) ,(x ,-4 , 4 ) ,(y ,-4 , 4 ) ,title = 'Circle : 
